@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Student.jpg);
+  background-size: cover;
+  height: 100hv;
+  margin: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+.regpage {
+  background-color: rgb(0, 0, 0);
+  width: 260px;
+  height: 500px;
+  margin: 5px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+h1 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 25px;
+}
+p {
+  color: white;
+  font-size: 16px;
+  padding: 1px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  background: transparent;
+  height: 20px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+input[type="submit"] {
+  padding: 0 0 5px;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Georgia;
+  border-radius: 20px;
+  transition: 3s at ease;
+  border: none;
+  outline: none;
+}
+input[type="submit"]:hover {
+  color: white;
+  background-color: aqua;
+}

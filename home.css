@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(alumni.jpg);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  overflow: hidden;
+}
+h1 {
+  color: white;
+  margin: 80px;
+  /* padding-left: 20px; */
+  margin-top: 5%;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+h1 span {
+  color: aqua;
+}
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 100px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul {
+  margin-right: 20px;
+  list-style-type: none;
+  float: right;
+  margin-left: 100px;
+}
+ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+ul li a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+ul li a.active {
+  background: whitesmoke;
+  color: black;
+  border-radius: 2px;
+}
+ul li a:hover {
+  background: whitesmoke;
+  color: black;
+  border-radius: 2px;
+}
+p {
+  /* padding-left: 20px; */
+  font-size: 22px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  color: white;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.btn {
+  width: 160px;
+  height: 40px;
+  background: aqua;
+  border: none;
+  margin-bottom: 120px;
+  margin-left: 80px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background-color: #fff;
+}
